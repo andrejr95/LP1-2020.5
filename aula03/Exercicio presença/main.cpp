@@ -3,9 +3,9 @@
 #include <fstream>
 
 int main(int argc, char *argv[]) {
-
-	std::string msn;
-	std::ifstream arquivo_entrada("entrada.txt");
+	
+  std::string msn;
+  std::ifstream arquivo_entrada("entrada.txt");
   std::ofstream arquivo_saida("saida.txt", std::ios::app);
 
   if (argc <= 1) {
