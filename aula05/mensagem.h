@@ -1,7 +1,7 @@
 #ifndef MENSAGEM_H
 #define MENSAGEM_H
 
-#include "Tempo.h"
+#include "Datahora.h"
 
 struct Mensagem {
 
