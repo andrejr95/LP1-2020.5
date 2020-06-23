@@ -2,6 +2,6 @@
 
 int main(int argc, char* argv[])
 {
-    App aplicativo("diary.md");
-    return aplicativo.run(argc, argv);
+    App app("diary.md");
+    return app.run(argc, argv);
 }
