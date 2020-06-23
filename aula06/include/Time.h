@@ -1,5 +1,5 @@
-#ifndef W5N_TIME_H
-#define W5N_TIME_H
+#ifndef TIME_H
+#define TIME_H
 
 #include <string>
 
@@ -11,4 +11,5 @@ struct Time
 
     void set_from_string(const std::string& time);
 };
+
 #endif
