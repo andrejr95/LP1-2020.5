@@ -1,6 +1,8 @@
 #ifndef AUXDATETIME_H
 #define AUXDATETIME_H
 
+#include <string>
+
 std::string format_current_date(const std::string& format);
 
 std::string get_current_date();
